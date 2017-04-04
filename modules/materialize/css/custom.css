@@ -1,0 +1,21 @@
+.panel {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.p-top {
+    margin-top: 14px;
+    margin-bottom: 0px;
+}
+
+.p-middle {
+    margin: 0px;
+}
+.p-bottom {
+    margin-top: 0px;
+    margin-bottom: 14px;
+}
+
+.text-justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
