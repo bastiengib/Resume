@@ -6,6 +6,7 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="modules/materialize/css/materialize.min.css"  media="screen,projection"/>
+    <link href="modules/MaterialDesign-Webfont-master/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
     <link type="text/css" rel="stylesheet" href="modules/materialize/css/custom.css"/>
 
     <!--Let browser know website is optimized for mobile-->
@@ -36,13 +37,23 @@
             <!-- PHOTO -->
             <div class="panel blue-grey darken-3">
                 <div class="container center-align">
-                    <div class="row valign-wrapper">
-                        <div class="col s12 m6 l8"> 
+                    <div class="row valign-wrapper hide-on-small-only">
+                        <div class="col s12 m6 l8 "> 
                             <div class="col offset-s1 s11 offset-m1 m6">
                                 <img src="src/profil.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
                             </div>
                         </div>
                         <div class="col s12 m6 l4 valign"> 
+                            <h3 class="cyan-text text-darken-1">Bastien Gibrat</h3>
+                            <p class="blue-grey-text text-lighten-1">Ingénieur Logiciel</p>
+                            <p class="blue-grey-text text-lighten-1">23 ans</p>
+                        </div>
+                    </div>
+                    <div class="hide-on-med-and-up">
+                        <div class="col s2">
+                            <img src="src/profil.png" alt="" class="circle responsive-img "> <!-- notice the "circle" class -->
+                        </div>
+                        <div class="valign hide-on-med-and-up s12 panel"> 
                             <h3 class="cyan-text text-darken-1">Bastien Gibrat</h3>
                             <p class="blue-grey-text text-lighten-1">Ingénieur Logiciel</p>
                             <p class="blue-grey-text text-lighten-1">23 ans</p>
@@ -218,9 +229,9 @@
                             <i class="material-icons">menu</i>
                         </a>
                         <ul>
-                            <li><a href="https://github.com/bastiengib" class="btn-floating  blue-grey lighten-1"><i class="material-icons">insert_chart</i></a></li>
-                            <li><a href="https://www.linkedin.com/in/bastien-gibrat-372256105/" class="btn-floating blue-grey lighten-1"><i class="material-icons">format_quote</i></a></li>
-                            <li><a href="mailto:bastien.gibrat@gmail.com" class="btn-floating  blue-grey lighten-1"><i class="material-icons">publish</i></a></li>
+                            <li><a href="https://github.com/bastiengib" class="btn-floating  blue-grey lighten-1"><i class="mdi mdi-github-circle"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/bastien-gibrat-372256105/" class="btn-floating blue-grey lighten-1"><i class="mdi mdi-linkedin"></i></a></li>
+                            <li><a href="mailto:bastien.gibrat@gmail.com" class="btn-floating  blue-grey lighten-1"><i class="mdi mdi-gmail">publish</i></a></li>
                         </ul>
                     </div>
                 </p>
