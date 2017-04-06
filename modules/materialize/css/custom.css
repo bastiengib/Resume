@@ -19,3 +19,7 @@
     text-align: justify;
     text-justify: inter-word;
 }
+
+.handwritting {
+    font-family: 'Grand Hotel', italic;
+}
