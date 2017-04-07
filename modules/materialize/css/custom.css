@@ -72,11 +72,11 @@
   display: none;
 }
 
-.timeline .timeline-event:nth-child(even) .timeline-content {
+.timeline .event-right .timeline-content {
   margin-left: calc(50% + 50px);
 }
 
-.timeline .timeline-event:nth-child(odd) .timeline-content {
+.timeline .event-left .timeline-content {
   margin-left: 0;
 }
 
@@ -98,7 +98,7 @@
   line-height: 40px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 992px) {
   .timeline .timeline-event .timeline-content {
     width: calc(100% - 70px);
   }
@@ -108,10 +108,10 @@
   .timeline .timeline-event::after {
     left: 19px;
   }
-  .timeline .timeline-event:nth-child(even) .timeline-content {
+  .timeline .event-right .timeline-content {
     margin-left: 70px;
   }
-  .timeline .timeline-event:nth-child(odd) .timeline-content {
+  .timeline .event-left .timeline-content {
     margin-left: 70px;
   }
   .timeline .timeline-badge {
